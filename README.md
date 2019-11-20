@@ -50,4 +50,17 @@ You can refer to this [StackExchange](https://superuser.com/questions/977912/fir
 
   
 ### 3. Modify JupyterLab's config file
-  
+Generate Jupyter config file if you have never done this before.
+`jupyter notebook --generate-config`
+
+Then copy the profile directory of the new Firefox profile. This can be found on the `about:profiles` page.
+
+Then open the config file at `.jupyter/jupyter_notebook_config.py` with a text editor. Add this line to the config file
+`c.LabApp.browser = 'firefox --profile /path/to/profile/directory %s' `
+where `/path/to/profile/directory` should be replaced by the directory of your new Firefox profile.
+
+Save the config file. 
+
+### 4. Launch JupyterLab
+
+Then launch Jupiter lab in terminal `jupyter lab` should open a single page firefox instance with JupyterLab.
