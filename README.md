@@ -6,7 +6,7 @@ There are plenty blogs about running JupyterLab as a desktop app using Chrome/Ch
 Firefox, unfortunately, does not have a counterpart of Chrome's `-app` option, so there will be a little more work than the Chrome/Chromium solution. This markdown is to document how to use Firefox to accomplish that.
 
 ## Screenshot
-![](jupyterlab.png)
+<img src="jupyterlab.png" width="300">
 
 ## Procedure
 
@@ -45,7 +45,9 @@ You can refer to this [StackExchange](https://superuser.com/questions/977912/fir
       #navigator-toolbox {visibility: collapse;}
       browser {margin-right: -14px; margin-bottom: -14px;}
       ```
-  6. Restart Firefox with the new profile, you should see something like this ![](firefox-single-page.png)
+  6. Restart Firefox with the new profile, you should see something like this
+  <img src="firefox-single-page.png" width="300">
+
   
 ### 3. Modify JupyterLab's config file
   
