@@ -24,7 +24,7 @@ Here, my new profile is named *web-app*. Then launch a new Firefox instance usin
 ### 2. Hide everything except content area for the new Firefox profile
 We are going to hide the tool bar and address bar on the Firefox with the new profile. First thing we need to do is to make sure the titlebar is enabled on the new Firefox profile (ie. make sure on the Firefox customize page, the bottom left corner, the **Title Bar** is toggled on).
 
-You can refer to this [StackExchange](https://superuser.com/questions/977912/firefox-hide-everything-except-content-area-of-the-browser/1269912#1269912) for the rest of this step. And I will describe the method I used for Firefox Quantum.
+You can refer to this post ([StackExchange](https://superuser.com/questions/977912/firefox-hide-everything-except-content-area-of-the-browser/1269912#1269912)) for the rest of this step. And I will describe the method I used for Firefox Quantum.
   1. type `about:config` in Firefox address bar
   2. set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`
   3. go to Firefox profile manager by typing `about:profiles` and open the profile directory for the profile we just created.
